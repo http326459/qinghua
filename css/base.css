@@ -1,0 +1,328 @@
+/* 重置css样式  */
+*{margin: 0;padding: 0;}
+body,div,h1,h2,h3,h4,h5,h6,p,a,img,input,ul,li,video,audio,dl,dt,dd,i,b,button{margin:0;padding:0;}
+li{list-style:none;}
+a{ text-decoration:none;color:#666;}
+img,input,textarea,a,button{border:none;outline: none;}
+i{font-style: normal;}
+textarea{resize: none;}
+h1,h2,h3,h4,h5,h6,i,b{font-weight: normal;}
+img {display: block;}
+/* 公共样式 */
+html{font-size:62.5%;}
+.fl{float:left;}
+.fr{float:right;}
+body{font-family:Arabic,"微软雅黑";color:#666;}
+a:hover{color:#bc210a;}
+.clearfix:after{content:'';display:block;height:0;clear:both;}
+/*** End ***/
+
+/*** home区 jg ***/
+.home_top{position:relative;}
+.home_top .home_top_pic{background:url("../images/home_top_bg.png")no-repeat;height:16.05rem;background-size: 100% 100%;}
+.home_top_left{position:absolute;left:0;top:0;z-index: 10;background:url("../images/top_lsanjiao.png");width:16rem;height:8.2rem;background-size:100% 100%;}
+.home_top_left .logo{position:absolute;left:5%;top:0.5rem;width:2.95rem;z-index: 20;}
+.home_top_left .wenben{width:7rem;top:1.5rem;}
+
+#home{background:url("../images/home_bg.png")no-repeat;background-size: 100% 100%;}
+#home .home_content{position:relative;}
+#home .home_content div{position:absolute;width:7.95rem;overflow: hidden;text-align: center;}
+#home .home_content div img{width:100%;}
+#home .home_content div h4{position:absolute;left:0;top:38%;text-align: center;color:#fff;font-size:13px;z-index: 10;width:100%;}
+#home .home_content div a{z-index:10;display: block;width:5rem;height:1.4rem;border:1px solid #fff;position:absolute;left:1.5rem;bottom:30%;text-align:center;line-height:1.25rem;font-size:12px;color:#fff;}
+#home .home_content div span{display: block;position:absolute;left:0;top:0;width:100%;height:100%;text-align: center;}
+#home .home_content div span img{width:100%;height:100%;}
+#home .home_content div:nth-child(1){left:40%;top:0.9rem;}
+#home .home_content div:nth-child(2){left:26%;top:8.1rem;}
+#home .home_content div:nth-child(3){left:54%;top:8.1rem;}
+#home .home_content div:nth-child(4){left:12%;top:15.3rem;}
+#home .home_content div:nth-child(5){left:40%;top:15.3rem;}
+#home .home_content div:nth-child(6){left:68%;top:15.3rem;}
+#home .home_content div:nth-child(7){left:26%;top:22.5rem;}
+#home .home_content div:nth-child(8){left:54%;top:22.5rem;}
+#home .home_content div:nth-child(9){left:40%;top:29.6rem;}
+
+/*** home区 End jg ***/
+
+
+
+/*** professorView区 dfm ***/
+#profe .header{height:18.3rem;}
+#profe  .header img{height:100%;}
+#profe  .list{background-image:linear-gradient(140deg, #c2c1c2 20% ,#f1f1f1  );}
+#profe  .item{background: rgba(0,0,0,0);padding:0px;height:6.35rem;margin:0 0.5rem 0 0.85rem;border: 0;}
+#profe  .item img{left:0rem;max-width:4.7rem;max-height:4.7rem;width:100%;height:100%;top:1.35rem;}
+#profe .profe-p{border-bottom: 1px solid #88072c;margin-left:5.55rem;height:6.3rem;padding-top:1.85rem;}
+#profe .profe-p p{line-height:1.75rem;padding-left:1.1rem;font-size: 12px;padding-right:4rem;}
+#profe span a{font-size: 20px;position: absolute;right:2rem;bottom:2rem;color:#88072c;}
+
+/*** End ***/
+
+
+/*** AlumniActivities区 dfm ***/
+#Alumni .header{height:18.3rem;}
+#Alumni  .header img{height:100%;}
+#Alumni  .list{background-image:linear-gradient(140deg, #c2c1c2 20% ,#f1f1f1  );}
+#Alumni  .item{background: rgba(0,0,0,0);padding:0px;height:6.35rem;margin:0 0.5rem 0 0.85rem;border: 0;}
+#Alumni  .item img{left:0rem;max-width:4.7rem;max-height:4.7rem;width:100%;height:100%;top:1.35rem;}
+#Alumni .profe-p{border-bottom: 1px solid #88072c;margin-left:5.55rem;height:6.3rem;padding-top:1.85rem;}
+#Alumni .profe-p p{line-height:1.75rem;padding-left:1.1rem;font-size: 12px;padding-right:4rem;}
+#Alumni span a{font-size: 20px;position: absolute;right:2rem;bottom:2rem;color:#88072c;}
+/*** End ***/
+
+/*** news区 dfm ***/
+#news .header{height:18.3rem;}
+#news  .header img{height:100%;}
+#news  .list{background-image:linear-gradient(140deg, #c2c1c2 20% ,#f1f1f1  );}
+#news  .item{background: rgba(0,0,0,0);padding:0px;height:6.35rem;margin:0 0.5rem 0 0.85rem;border: 0;}
+#news  .item img{left:0rem;max-width:4.7rem;max-height:4.7rem;width:100%;height:100%;top:1.35rem;}
+#news .profe-p{border-bottom: 1px solid #88072c;margin-left:5.55rem;height:6.3rem;padding-top:1.85rem;}
+#news .profe-p p{line-height:1.75rem;padding-left:1.1rem;font-size: 12px;padding-right:4rem;}
+#news span a{font-size: 20px;position: absolute;right:2rem;bottom:2rem;color:#88072c;}
+/*** End ***/
+
+/*** lecture区 dfm ***/
+#lecture .header{height:18.3rem;}
+#lecture  .header img{height:100%;}
+#lecture  .list{background-image:linear-gradient(200deg, #a4a3a3 10% ,#f1f1f1  );}
+#lecture .list-top{margin-top:1rem;background: url("../images/lecture-bg_02.jpg") no-repeat left top;height:2.8rem;background-size: 100%;}
+#lecture .list-top span{font-size: 12px;color: #f8f8f8;line-height:2.8rem;}
+#lecture .list-top span:nth-child(1){float:left;padding-left:0.85rem;}
+#lecture .list-top span:nth-child(2){float:right;margin-right:1.85rem;}
+#lecture  .item{background: rgba(0,0,0,0);padding:0px;height:6.35rem;margin:0 0.5rem 0 0.85rem;border: 0;}
+#lecture  .item img{left:0rem;max-width:4.7rem;max-height:4.7rem;width:100%;height:100%;top:1.35rem;}
+#lecture .profe-p{border-bottom: 1px solid #88072c;margin-left:5.55rem;height:6.3rem;padding-top:1.85rem;}
+#lecture .profe-p p{line-height:1.75rem;padding-left:1.1rem;font-size: 12px;padding-right:4rem;}
+#lecture span a{font-size: 20px;position: absolute;right:2rem;bottom:2rem;color:#88072c;}
+/*** End ***/
+
+/*** teaching区 dfm ***/
+#teaching .teaching-tb{background:url("../images/teaching-tb_01.jpg")no-repeat;height:16.05rem;background-size: 100% 100%;margin-bottom: 1.3rem;}
+#teaching  .teaching-main{background-image:linear-gradient(200deg, #a4a3a3 10% ,#f1f1f1  );}
+#teaching .main{height:13.3rem;background: #f3f3f3;padding:0 0.5rem 0 0.8rem;font-size: 12px;margin-bottom: 1.1rem;}
+#teaching .main .main-div{margin-left:4.85rem;padding-left:1.8rem;}
+#teaching .main .main-div i{color: #1462c4;float:right;line-height: 2.25rem;padding-right:0.4rem;}
+#teaching .main .main-div p{line-height: 1.95rem;}
+#teaching .main .main-div h3{color: #141414;font-size: 14px;line-height:1.45rem;padding-top:3rem;}
+#teaching .main img{float:left;max-width:4.85rem;max-height:4.85rem;width:100%;margin-top:1.95rem;}
+#teaching .main .main-div span{line-height:1.25rem;padding-right:0.4rem;font-size: 10px;}
+#teaching .main .main-bot{float:right;padding-top:1.5rem;}
+#teaching .main .main-bot a{font-size: 16px;}
+#teaching .main .main-bot a:nth-child(1){padding-right:3.2rem;}
+#teaching .main .main-bot a span{color:#89072d;font-size: 12px;padding-left:0.5rem;}
+/*** End ***/
+
+/*** train区 jg ***/
+#train .home_top{position:relative;}
+#train .home_top .home_top_pic{background:url("../images/zsxx1_01.jpg") no-repeat;height:16.05rem;background-size: 100% 100%;}
+#train .home_top_left{position:absolute;left:0;top:0;z-index: 10;background:url("../images/top_lsanjiao.png");width:16rem;height:8.2rem;background-size:100% 100%;}
+#train .home_top_left .logo{position:absolute;left:5%;top:0.5rem;width:2.95rem;z-index: 20;}
+#train .home_top_left .wenben{width:7rem;top:1.5rem;}
+#train  h3{font-size: 1.4rem;line-height: 1.5;color: #880628;text-align: center;margin: 2% 0;}
+#train .js {color: #880628}
+#train .gjxmb li{float: left;font-size: 1.4rem;margin: 1%;color:#595959;}
+#train p{color:#141414;margin-left: 4%;line-height: 2;}
+/*** train区 End jg ***/
+
+/*** enrollment区 jg ***/
+#enrollment .home_top{position:relative;}
+#enrollment .home_top .home_top_pic{background:url("../images/zsxx1_01.jpg")no-repeat;height:16.05rem;background-size: 100% 100%;}
+#enrollment .con ul:last-child:after{content:"";display: block;height:1px;background-image:linear-gradient(90deg, #ccb0bb 9%, #d80056 50%,#ccb0bb 96%);background-image:-moz-linear-gradient(90deg, #ccb0bb 9%, #d80056 50%,#ccb0bb 96%);background-image:-ms-linear-gradient(90deg, #ccb0bb 9%, #d80056 50%,#ccb0bb 96%);background-image:-webkit-linear-gradient(90deg, #ccb0bb 9%, #d80056 50%,#ccb0bb 96%)}
+
+#enrollment .con ul{padding:0 2rem;}
+#enrollment .con li{font-size: 0.4rem;color:#0c0c0c;list-style:square;}
+#enrollment .con li a{line-height: 2;color:#0c0c0c;}
+.bj{position: relative;height:4rem;}
+.bj .big{position: absolute;left:13px; top:15px;width:3.5rem;}
+.bj .big img{width:100%;}
+.bj .inbig{position: absolute;left:24px; top:9px;width:9.7rem;}
+.bj .inbig img{width:100%;}
+.bj .inbig h2{position: absolute;left:33px;top:4px;font-size:13px;}
+
+/*** enrollment区 End jg ***/
+
+/*** TeachingProgram区 dfm ***/
+#TeachingProgram .teaching-tb{background:url("../images/teaching-tb_01.jpg")no-repeat;height:16.05rem;background-size: 100% 100%;margin-bottom: 1.3rem;}
+#TeachingProgram .TeachingProgram-content{background-image:linear-gradient(180deg, #a4a3a3 10% ,#f1f1f1  )}
+#TeachingProgram .main h3{background:url("../images/TeachingProgram-bgx_03.png")no-repeat bottom;text-align: center;margin-top:0.5rem;height:3rem;line-height:3rem;}
+#TeachingProgram .main h3 span{line-height:3rem;font-size: 20px;}
+#TeachingProgram .main p{line-height:1.35rem;font-size: 12px;margin: 0 1.55rem;text-indent: 2em;padding-top:1rem;}
+#TeachingProgram .main ul{padding-top:2rem;width:27.9rem;margin: 0 auto;}
+#TeachingProgram .main ul li{float: left;height:9rem;width:9.3rem;text-align: center;}
+#TeachingProgram .main ul li img{max-width:5.75rem;max-height:5.75rem;width:100%;height:100%;margin: 0 auto;}
+#TeachingProgram .main ul li span{font-size: 12px;}
+/*** End ***/
+
+/*** HotNews区 dfm ***/
+#HotNews .teaching-tb{background:url("../images/teaching-tb_01.jpg")no-repeat;height:16.05rem;background-size: 100% 100%;margin-bottom: 1.3rem;}
+#HotNews .HotNews-content{background-image:linear-gradient(180deg, #a4a3a3 10% ,#f1f1f1  )}
+#HotNews .main{padding:0 0.5rem;}
+#HotNews .main h3{text-align: center;margin-top:0.8rem;height:3.75rem;line-height:3.75rem;}
+#HotNews .main h3 span{line-height:3.75rem;font-size: 13px;color:#880628;}
+#HotNews .main h3 img{width:100%;display: block;}
+#HotNews .main b{font-size:10px ;display: block;padding-top:0.8rem;transform:scale(0.95);width:100%;margin-bottom: 1rem;text-align: center;}
+#HotNews .main b span{color:#880628;padding-right:0.7rem;}
+#HotNews .main b i{padding-right:0.6rem;}
+#HotNews .main p{font-size: 12px;text-indent: 2em;line-height: 1.75rem;margin-bottom: 1rem;padding:0 1rem;}
+
+/*** End ***/
+
+/*** LectureArticle区 dfm ***/
+#LectureArticle .teaching-tb{background:url("../images/teaching-tb_01.jpg")no-repeat;height:16.05rem;background-size: 100% 100%;margin-bottom: 1.3rem;}
+#LectureArticle .LectureArticle-content{background-image:linear-gradient(180deg, #a4a3a3 10% ,#f1f1f1  )}
+#LectureArticle .main{padding:0 0.5rem;}
+#LectureArticle .main h3{text-align: center;margin-top:0.8rem;height:3.75rem;line-height:3.75rem;}
+#LectureArticle .main h3 span{line-height:3.75rem;font-size: 13px;color:#880628;}
+#LectureArticle .main h3 img{width:100%;display: block;}
+#LectureArticle .main b{font-size:10px ;display: block;padding-top:0.8rem;transform:scale(0.95);width:100%;margin-bottom: 1rem;text-align: center;}
+#LectureArticle .main b span{color:#880628;padding-right:0.7rem;}
+#LectureArticle .main b i{padding-right:0.6rem;}
+#LectureArticle .main p{font-size: 12px;text-indent: 2em;line-height: 1.75rem;margin-bottom: 1rem;padding:0 1rem;}
+
+/*** End ***/
+
+/***  committee区 jg ***/
+#committee{background-color: #cac9c9;}
+#committee .contop{background: url("../images/consan_01.jpg") no-repeat;height: 16.05rem;background-size: 100% 100%;position: relative;}
+#committee .contop .incon{position: absolute;}
+#committee .contop .incon img{height: 100%;}
+#committee .contop .incon:nth-child(1){left:61px;top:140px;}
+#committee .contop .incon:nth-child(2){left:122px;top:140px;}
+#committee .contop .incon:nth-child(3){left:186px;top:140px;}
+#committee .contop .incon:nth-child(4){left:254px;top:140px;}
+#committee .contop .incon:nth-child(5){left:316px;top:140px;}
+#committee .contop .incon .incon_a{position: absolute;left:0px;top:-84px;height: 11.1rem;}
+#committee .contop .incon .incon_b{position: absolute;left:-9px;top:-100px;height: 3.5rem;}
+#committee .contop .incon .incon_b a{color: #fff;position: relative;left: 7px;top:0px;font-size: 0.4rem;letter-spacing: 1px;text-align: center;}
+#committee .contop .incon .incon_b a span{display:block;line-height:15px;font-size:12px;}
+#committee .conmid{height: 16.05rem;}
+#committee .conmid_bga{background: url("../images/consi_02.jpg") no-repeat;background-size: 100% 100%;}
+#committee .conmid_bgb{background: url("../images/IMG_0572.jpg") no-repeat;background-size: 100% 100%;}
+#committee .conmid_bgc{background: url("../images/img_05%20(1).jpg") no-repeat;background-size: 100% 100%;}
+
+
+#committee .conmid .incoco{position: relative;left:194px;top:156px;}
+#committee .conmid .incoco li{float: left;margin-left: 2%;}
+#committee .conmid .incoco li img{width: 100%;max-width: 44px;}
+
+#committee .contex{background-color: #cac9c9;height: 100%;}
+#committee .contex h3{color:#88072c;font-weight: bold;margin-left: 32%;font-size: 24px;margin-top: 30px;}
+#committee .contex p{margin-left: 3%;text-indent: 2em;line-height: 1.5;}
+#committee .contex .contex-pic{margin-left: 32%;margin-bottom: 20px;}
+
+/***  committee区 jg ***/
+
+/***  CouncilMembers区 dfm ***/
+#CouncilMembers .contop{background: url("../images/consan_01.jpg") no-repeat;height: 16.05rem;background-size: 100% 100%;position: relative;}
+#CouncilMembers .contop .incon{position: absolute;}
+#CouncilMembers .contop .incon img{height: 100%;}
+#CouncilMembers .contop .incon:nth-child(1){left:61px;top:140px;}
+#CouncilMembers .contop .incon:nth-child(2){left:122px;top:140px;}
+#CouncilMembers .contop .incon:nth-child(3){left:186px;top:140px;}
+#CouncilMembers .contop .incon:nth-child(4){left:254px;top:140px;}
+#CouncilMembers .contop .incon:nth-child(5){left:316px;top:140px;}
+#CouncilMembers .contop .incon .incon_a{position: absolute;left:0px;top:-84px;height: 11.1rem;}
+#CouncilMembers .contop .incon .incon_b{position: absolute;left:-9px;top:-100px;height: 3.5rem;}
+#CouncilMembers .contop .incon .incon_b a{color: #fff;position: relative;left: 7px;top:0px;font-size: 0.4rem;letter-spacing: 1px;text-align: center;}
+#CouncilMembers .contop .incon .incon_b a span{display:block;line-height:15px;font-size:12px;}
+#CouncilMembers .conmid{background: url("../images/consi_02.jpg") no-repeat;height: 16.05rem;background-size: 100% 100%;}
+#CouncilMembers .conmid .incoco{position: relative;left:194px;top:156px;}
+#CouncilMembers .conmid .incoco li{float: left;margin-left: 2%;}
+#CouncilMembers .conmid .incoco li img{width: 100%;max-width: 44px;}
+#CouncilMembers .main{padding:0 1.5rem;}
+#CouncilMembers .main div{background-image: -webkit-linear-gradient(90deg, #cac3bc 9%, #c7ad8f 50%,#cac3bc 96%);background-image:linear-gradient(90deg, #cac3bc 9%, #c7ad8f 50%,#cac3bc 96%);
+background-image:-ms-linear-gradient(90deg, #cac3bc 9%, #c7ad8f 50%,#cac3bc 96%);background-image:-moz-linear-gradient(90deg, #cac3bc 9%, #c7ad8f 50%,#cac3bc 96%);}
+#CouncilMembers .main h3{text-align: center;margin-top:0.8rem;height:3.75rem;line-height:3.75rem;padding:0 2.5rem;}
+#CouncilMembers .main h3 span{line-height:3.75rem;font-size: 13px;color:#880628;}
+#CouncilMembers .main h3 img{width:100%;height:1px;}
+#CouncilMembers .main h4{text-align: center;line-height:2.95rem;padding-top:0.5rem;color:#88072c;}
+#CouncilMembers .main h4 span{font-size: 12px;color:#88072c;}
+#CouncilMembers .main span{line-height:1.45rem;font-size: 12px;text-indent: 2em;color:#454445;}
+#CouncilMembers .main > div{height:6.3rem;position: relative;margin:0 1.5rem 0 0.5rem;}
+#CouncilMembers .main >div .top{position: absolute;top:0;}
+#CouncilMembers .main >div .top img{width:100%;height:1px;}
+#CouncilMembers .main >div .bot img{width:100%;height:1px;}
+#CouncilMembers .main >div .bot{position: absolute;bottom:0;}
+#CouncilMembers .main >div .center img{float:left;max-width:5rem;max-height:5rem;width:100%;margin-top:0.5rem;margin-right: 2.5rem;}
+#CouncilMembers .main >div .center p{font-size: 12px;line-height:1.3rem;}
+#CouncilMembers .main >div .center h5{font-size: 14px;line-height:2.55rem;}
+
+/***  committee区 jg ***/
+
+/***  academicism区 jg ***/
+#academicism{background-color: #cac9c9;}
+#academicism .contop{background: url("../images/consan_01.jpg") no-repeat;height: 16.05rem;background-size: 100% 100%;position: relative;}
+#academicism .contop .incon{position: absolute;}
+#academicism .contop .incon img{height: 100%;}
+#academicism .contop .incon:nth-child(1){left:61px;top:140px;}
+#academicism .contop .incon:nth-child(2){left:122px;top:140px;}
+#academicism .contop .incon:nth-child(3){left:186px;top:140px;}
+#academicism .contop .incon:nth-child(4){left:254px;top:140px;}
+#academicism .contop .incon:nth-child(5){left:316px;top:140px;}
+#academicism .contop .incon .incon_a{position: absolute;left:0px;top:-84px;height: 11.1rem;}
+#academicism .contop .incon .incon_b{position: absolute;left:-9px;top:-100px;height: 3.5rem;}
+#academicism .contop .incon .incon_b a{color: #fff;position: relative;left: 7px;top:0px;font-size: 0.4rem;letter-spacing: 1px;text-align: center;}
+#academicism .contop .incon .incon_b a span{display:block;line-height:15px;font-size:12px;}
+#academicism .conmid{background: url("../images/consi_02.jpg") no-repeat;height: 16.05rem;background-size: 100% 100%;}
+#academicism .conmid .incoco{position: relative;left:194px;top:156px;}
+#academicism .conmid .incoco li{float: left;margin-left: 2%;}
+#academicism .conmid .incoco li img{width: 100%;max-width: 44px;}
+#academicism .contex{background-color: #cac9c9;height: 100%;}
+#academicism .contex h3{color:#88072c;font-weight: bold;margin-left: 32%;font-size: 24px;margin-top: 30px;}
+#academicism .contex p{margin-left: 3%;text-indent: 2em;line-height: 1.5;}
+#academicism .contex .contex-pic{margin-left: 24%;margin-bottom: 20px;}
+/***  academicism区 jg ***/
+
+/***  learned区 jg ***/
+#learned{background-color: #cac9c9;}
+#learned .contop{background: url("../images/consan_01.jpg") no-repeat;height: 16.05rem;background-size: 100% 100%;position: relative;}
+#learned .contop .incon{position: absolute;}
+#learned .contop .incon img{height: 100%;}
+#learned .contop .incon:nth-child(1){left:61px;top:140px;}
+#learned .contop .incon:nth-child(2){left:122px;top:140px;}
+#learned .contop .incon:nth-child(3){left:186px;top:140px;}
+#learned .contop .incon:nth-child(4){left:254px;top:140px;}
+#learned .contop .incon:nth-child(5){left:316px;top:140px;}
+#learned .contop .incon .incon_a{position: absolute;left:0px;top:-84px;height: 11.1rem;}
+#learned .contop .incon .incon_b{position: absolute;left:-9px;top:-100px;height: 3.5rem;}
+#learned .contop .incon .incon_b a{color: #fff;position: relative;left: 7px;top:0px;font-size: 0.4rem;letter-spacing: 1px;text-align: center;}
+#learned .contop .incon .incon_b a span{display:block;line-height:15px;font-size:12px;}
+#learned .conmid{background: url("../images/consi_02.jpg") no-repeat;height: 16.05rem;background-size: 100% 100%;}
+#learned .conmid .incoco{position: relative;left:194px;top:156px;}
+#learned .conmid .incoco li{float: left;margin-left: 2%;}
+#learned .conmid .incoco li img{width: 100%;max-width: 44px;}
+#learned .contex{background-color: #cac9c9;height: 100%;}
+#learned .contex h3{color:#88072c;font-weight: bold;margin-left: 32%;font-size: 24px;margin-top: 30px;}
+#learned .contex p{margin-left: 3%;text-indent: 2em;line-height: 1.5;}
+#learned .contex .contex-pic{margin-left: 32%;margin-bottom: 20px;}
+/***  learned区 jg ***/
+
+/***  teachers区 jg ***/
+#teachers{background-color: #cac9c9;}
+#teachers .contop{background: url("../images/consan_01.jpg") no-repeat;height: 16.05rem;background-size: 100% 100%;position: relative;}
+#teachers .contop .incon{position: absolute;}
+#teachers .contop .incon img{height: 100%;}
+#teachers .contop .incon:nth-child(1){left:61px;top:140px;}
+#teachers .contop .incon:nth-child(2){left:122px;top:140px;}
+#teachers .contop .incon:nth-child(3){left:186px;top:140px;}
+#teachers .contop .incon:nth-child(4){left:254px;top:140px;}
+#teachers .contop .incon:nth-child(5){left:316px;top:140px;}
+#teachers .contop .incon .incon_a{position: absolute;left:0px;top:-84px;height: 11.1rem;}
+#teachers .contop .incon .incon_b{position: absolute;left:-9px;top:-100px;height: 3.5rem;}
+#teachers .contop .incon .incon_b a{color: #fff;position: relative;left: 7px;top:0px;font-size: 0.4rem;letter-spacing: 1px;text-align: center;}
+#teachers .contop .incon .incon_b a span{display:block;line-height:15px;font-size:12px;}
+#teachers .conmid{background: url("../images/consi_02.jpg") no-repeat;height: 16.05rem;background-size: 100% 100%;}
+#teachers .conmid .incoco{position: relative;left:194px;top:156px;}
+#teachers .conmid .incoco li{float: left;margin-left: 2%;}
+#teachers .conmid .incoco li img{width: 100%;max-width: 44px;}
+#teachers .contex{background-color: #cac9c9;height: 100%;}
+#teachers .contex h3{color:#88072c;font-weight: bold;text-align:center;font-size: 24px;margin-top: 30px;}
+#teachers .contex p{margin-left: 3%;text-indent: 2em;line-height: 1.5;}
+#teachers .contex .contex-pic{margin-left: 25%;margin-bottom: 20px;}
+/***  teachers区 jg ***/
+
+/*** tour ***/
+#tour_view div{height:100%;}
+#tour_view div img{width:100%;height:100%;}
+#tour_view a{position:absolute;right:3rem;bottom:3rem;color:#fff;font-size:2rem;}
+/*** tour ***/

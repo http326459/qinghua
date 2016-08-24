@@ -1,0 +1,19 @@
+<ion-view id="enrollment" view-title="招生信息">
+    <ion-content>
+        <div class="home_top">
+            <div class="home_top_left">
+                <span class="logo wenben">高级培训项目</span>
+            </div>
+            <div class="home_top_pic"></div>
+        </div>
+        <div class="con" ng-repeat="enrollment in genres">
+            <div class="bj">
+                <div class="big"><img src="images/sh.png"></div>
+                <div class="inbig"><img src="images/qh.png"><h2>{{enrollment.title}}</h2></div>
+            </div>
+                <ul ng-repeat="leftdt in enrollment.master">
+                    <li><a ui-sref="tabs.train">{{leftdt.one}}</a></li>
+                </ul>
+        </div>
+    </ion-content>
+</ion-view>

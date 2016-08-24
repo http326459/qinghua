@@ -1,0 +1,40 @@
+<ion-view id="committee" view-title="战略咨询委员会">
+    <ion-content>
+        <div class="contop">
+            <div class="incon">
+                <div class="incon_a"><img src="images/coner.png"/></div>
+                <div class="incon_b"><img src="images/conyi.png"/><a ui-sref="tabs.academicism"><span>学</span><span>院</span><span>介</span><span>绍</span></a></div>
+            </div>
+            <div class="incon">
+                <div class="incon_a"><img src="images/coner.png"/></div>
+                <div class="incon_b"><img src="images/conyi.png"/><a ui-sref="tabs.CouncilMembers"><span>理</span><span>事</span><span>会</span><span>成</span><span>员</span></a></div>
+            </div>
+            <div class="incon">
+                <div class="incon_a"><img src="images/coner.png"/></div>
+                <div class="incon_b"><img src="images/conyi.png"/><a ui-sref="tabs.learned"><span>学</span><span>术</span><span>顾</span><span>问</span><span>委</span><span>员</span><span>会</span></a></div>
+            </div>
+            <div class="incon">
+                <div class="incon_a"><img src="images/conba.png"/></div>
+                <div class="incon_b"><img src="images/conjiu.png"/><a ui-sref="tabs.committee"><span>战</span><span>略</span><span>咨</span><span>询</span><span>委</span><span>员</span><span>会</span></a></div>
+            </div>
+            <div class="incon">
+                <div class="incon_a"><img src="images/coner.png"/></div>
+                <div class="incon_b"><img src="images/conyi.png"/><a ui-sref="tabs.teachers"><span>师</span><span>资</span><span>介</span><span>绍</span></a></div>
+            </div>
+        </div>
+     <div class="conmid conmid_bga" ng-class="getClass(cls)">
+            <ul class="incoco">
+                <li ng-click="changeBg(conmid_bga,conmid_bgb,conmid_bgc)" ng-repeat="product in products"><a href="javascript:;"><img ng-src="{{product.image}}"/></a> </li>
+            </ul>
+        </div>
+        <div class="contex">
+            <h3>战略咨询委员会</h3>
+            <div class="contex-pic"><img src="images/conyy_03.jpg"/> </div>
+            <p>战略咨询委员会是清华大学五道口金融学院的高端咨询机构，由来自
+                “一行三会”、交易所、金融办／金融局、金融机构、知名实业企业和国
+                家级研究机构的代表组成。汇聚学界与业界的智慧和资源，为学院的战略
+                发展规划、课程体系建设、学术研究等工作提出指导意见与建议。首任主
+                席为浙江省副省长朱从玖，副主席为国家外汇管理局副局长李超。</p>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,103 @@
+/**
+ * Created by hxsd on 2016/8/16.
+ */
+var myapp = angular.module("myapp",["ionic"]);
+myapp.config(function($stateProvider,$urlRouterProvider,$ionicConfigProvider){
+	/*ion-tabs 固定在底部方法*/
+	$ionicConfigProvider.platform.ios.tabs.style('standard'); 
+    $ionicConfigProvider.platform.ios.tabs.position('bottom');
+    $ionicConfigProvider.platform.android.tabs.style('standard');
+    $ionicConfigProvider.platform.android.tabs.position('standard');
+	$ionicConfigProvider.platform.ios.navBar.alignTitle('center'); 
+    $ionicConfigProvider.platform.android.navBar.alignTitle('left');
+    
+    
+    
+    $stateProvider.state("tour",{
+        url:"/tour",
+        templateUrl:"views/tour/tour.html"
+    });
+    $stateProvider.state("tabs",{
+        url:"/tabs",
+        templateUrl:"views/tabs/tabs.html",
+        controller:"tabsCtrl"
+    });
+    $stateProvider.state("tabs.home",{
+        url:"/home",
+        views:{"tab-home":{templateUrl:"views/home/home.html"}}
+    });
+    $stateProvider.state("tabs.ProfessorView",{
+        url:"/ProfessorView",
+        views:{"tab-home":{
+            templateUrl:"views/ProfessorView/ProfessorView.html",
+            controller:"ProfessorViewCtrl"
+        }}
+    });
+    $stateProvider.state("tabs.train",{
+        url:"/train",
+        views:{"tab-home":{templateUrl:"views/train/train.html"}}
+    });
+    $stateProvider.state("tabs.lecture",{
+        url:"/lecture",
+        views:{"tab-home":{
+            templateUrl:"views/lecture/lecture.html",
+            controller:"lectureCtrl"
+        }}
+    });
+    $stateProvider.state("tabs.AlumniActivities",{
+        url:"/AlumniActivities",
+        views:{"tab-home":{
+            templateUrl:"views/AlumniActivities/AlumniActivities.html",
+            controller:"AlumniActivitiesCtrl"
+        }}
+    });
+    $stateProvider.state("tabs.news",{
+        url:"/news",
+        views:{"tab-news":{templateUrl:"views/news/news.html",
+            controller:"newsCtrl"}}
+    });
+    $stateProvider.state("tabs.enrollment",{
+        url:"/enrollment",
+        views:{"tab-home":{templateUrl:"views/enrollment/enrollment.html",
+            controller:"enrollmentCtrl"}}
+    });
+    $stateProvider.state("tabs.teaching",{
+        url:"/teaching",
+        views:{"tab-home":{templateUrl:"views/teaching/teaching.html",
+            controller:"teachingCtrl"}}
+    });
+    $stateProvider.state("tabs.TeachingProgram",{
+        url:"/TeachingProgram",
+        views:{"tab-home":{templateUrl:"views/TeachingProgram/TeachingProgram.html",
+            controller:"programCtrl"}}
+    });
+    $stateProvider.state("tabs.HotNews",{
+        url:"/HotNews",
+        views:{"tab-home":{templateUrl:"views/HotNews/HotNews.html"}}
+    });
+    $stateProvider.state("tabs.committee",{
+        url:"/committee",
+        views:{"tab-home":{templateUrl:"views/committee/committee.html",controller:"committeeCtrl"}}
+    });
+    $stateProvider.state("tabs.learned",{
+        url:"/learned",
+        views:{"tab-home":{templateUrl:"views/learned/learned.html"}}
+    });
+    $stateProvider.state("tabs.academicism",{
+        url:"/academicism",
+        views:{"tab-home":{templateUrl:"views/academicism/academicism.html"}}
+    });
+    $stateProvider.state("tabs.LectureArticle",{
+        url:"/LectureArticle",
+        views:{"tab-home":{templateUrl:"views/LectureArticle/LectureArticle.html"}}
+    });
+    $stateProvider.state("tabs.CouncilMembers",{
+        url:"/CouncilMembers",
+        views:{"tab-home":{templateUrl:"views/CouncilMembers/CouncilMembers.html"}}
+    });
+    $stateProvider.state("tabs.teachers",{
+        url:"/teachers",
+        views:{"tab-home":{templateUrl:"views/teachers/teachers.html"}}
+    });
+    $urlRouterProvider.otherwise("/tour");
+});

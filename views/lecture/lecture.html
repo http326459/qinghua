@@ -1,0 +1,25 @@
+<ion-view id="lecture" view-title="论坛讲座">
+    <ion-content>
+        <div class="home_top">
+            <div class="home_top_left">
+                <span class="logo wenben">论坛讲座</span>
+            </div>
+            <div class="home_top_pic"></div>
+        </div>
+        <ion-list>
+            <div class="list-top">
+                <span>清华五道口全球金融名师大讲堂</span>
+                <span>清华五道口金融家大讲堂</span>
+            </div>
+            <ion-item class="item-avatar item-remove-animate" ng-repeat="pengts in lecture">
+                <img ng-src="{{pengts.imgsrc}}"/>
+                <div class="profe-p">
+                    <p>{{pengts.time}}</p>
+                    <p><a href="#"> {{pengts.desc}}</a></p>
+                    <span><a ui-sref="tabs.LectureArticle" class="ion-ios-arrow-forward"></a></span>
+                </div>
+            </ion-item>
+        </ion-list>
+        <ion-infinite-scroll on-infinite="loadMore()" immediate-check="false"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>

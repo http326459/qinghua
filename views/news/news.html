@@ -1,0 +1,22 @@
+<ion-view id="news">
+    <ion-content>
+        <div class="home_top">
+            <div class="home_top_left">
+                <span class="logo wenben">热点新闻</span>
+            </div>
+            <div class="home_top_pic"></div>
+        </div>
+        <ion-list>
+            <ion-item  ng-repeat="product in products" class="item-avatar item-remove-animate">
+                <img ng-src="{{product.imgsrc}}"/>
+                <div class="profe-p">
+                    <p>{{product.time}}</p>
+                    <p><a href="#"> {{product.desc}}</a></p>
+                    <span><a ui-sref="tabs.HotNews" class="ion-ios-arrow-forward"></a></span>
+                </div>
+            </ion-item>
+
+        </ion-list>
+        <ion-infinite-scroll on-infinite="loadMore()" immediate-check="false"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>

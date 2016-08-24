@@ -1,0 +1,32 @@
+<ion-view id="teaching" view-title="互动交流">
+    <ion-content class="teaching-main">
+        <div class="home_top">
+            <div class="home_top_left">
+                <span class="logo wenben">互动交流</span>
+            </div>
+            <div class="teaching-tb"></div>
+        </div>
+        <div>
+            <div class="main"   ng-repeat="product in teaching">
+                <img ng-src="{{product.imgsrc}}"/>
+                <div class="main-div">
+                    <i>{{product.source}}</i>
+                    <h3>{{product.title}}</h3>
+                    <p>{{product.time}}</p>
+                    <span>{{product.main}}</span>
+                    <div class="main-bot">
+                        <a href="#" class="icon ion-android-chat"><span>留言</span></a>
+                        <a href="#" class="icon ion-heart"><span><b>256人</b> / 点赞</span></a>
+                    </div>
+                </div>
+            </div>
+            <ion-infinite-scroll on-infinite="loadMore()" immediate-check="false"></ion-infinite-scroll>
+
+        </div>
+
+
+
+
+        <!--<ion-infinite-scroll on-infinite="loadMore()" immediate-check="false"></ion-infinite-scroll>-->
+    </ion-content>
+</ion-view>
